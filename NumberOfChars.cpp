@@ -11,6 +11,9 @@ int stringCharsNumber(string str) {
     return count;
 }
 int main(){
-    string str = "XXXXaaaaAAaaasssss";
+    string str;
+    cout << "Enter the string to start function." << endl;
+    cin >> str;
     cout << "Number of character is " << stringCharsNumber(str) << endl;
+    return 0;
 }
